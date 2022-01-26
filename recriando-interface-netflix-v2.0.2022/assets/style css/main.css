@@ -1,0 +1,245 @@
+
+:root{
+    --red:#E50914;
+    --black:#141414;
+    --void: #0E0B16;
+    --fuschia:#A239CA;
+    --jewel: #4717f6;
+    --stark:#E7DFDD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--void);
+    font-family:'Arial', Helvetica, sans-serif;
+    color: var(--stark);
+    border: none;
+    
+}
+
+header .menu-superior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--void);
+
+}
+
+header .logo{
+    color: var(--fuschia);
+    font-family:'Arial Black','Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--stark);
+}
+
+.busca-texto{
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    width: auto;
+    color: var(--void);
+
+}
+
+.fas.fa-search::before{
+    color: var(--stark);
+}
+
+/*MANGA PRINCIPAL*/
+
+.conteudo-destaque{
+    margin-left: 20px;
+}
+
+.manga-principal .conteudo-destaque{
+    width: 60%;
+}
+
+.manga-principal{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/jujutsu-kaisen-capa-background-modal.jpg');
+    font-size: 16px;
+    border: none;
+    height: 400px;
+    width: auto;
+    background-size: cover;
+    color: var(--stark);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.titulo{
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.manga-principal .sinopse{
+    display: flex;
+    flex-direction: column;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: var(--stark);
+    font: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    padding: 10px 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    width: auto;
+}
+
+.botao:hover{
+    
+    background-color: var(--stark);
+    color: black;
+    transition: .3s ease all;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.box-manga{
+    margin-top: 0.1%;
+    display: block;
+    max-width: auto;
+    height: auto;
+    object-fit: cover;
+    background-color:var(--void);
+}
+
+
+
+/* modal*/
+.modal{
+    padding: none;
+}
+
+.janela-modal .modal-header{
+    background: url('../img/jujutsu-kaisen-capa-background-modal.jpg');
+
+}
+
+.modal-header .btn-close{
+    background-color:var(--stark);
+}
+
+.modal-content{
+   border-radius: none;
+
+}
+.modal-body{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/jujutsu-kaisen-capa-background-modal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--stark);
+    
+    
+}
+
+.principal-capa-manga{
+    background: url('../img/jujutsu-kaisen-capa-0.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2px;
+    margin: 2px;
+    width: 100%;
+    height: 400px;
+
+}
+
+.vol a{
+    background: rgba(0,0,0,.50);
+    color: var(--stark);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+}
+
+.vol p{
+    color: var(--stark);
+}
+
+.caps:hover{
+    background-color: rgba(0,0,0,.50);
+    color: var(--stark);
+    transition: .3s ease all;
+}
+.titulo-vol h6{
+    text-align: center;
+    color: var(--stark);
+    padding: 10px;
+    
+}
+
+.vol p{
+    text-align: center;
+}
+.modal-footer{
+    background: url('../img/jujutsu-kaisen-capa-background-modal.jpg');
+ 
+}
+
+.acesse-conteudo{
+    text-align: space-around;
+    text-decoration: none;
+    background-color: rgba(0,0,0,.10);
+    color: var(--stark);
+    transition: .3s ease all;
+    
+}
+
+.fa-plus:before{
+    margin-right: 10px;
+}
+
+
+
+.voltar-ao-principal a .fas.fa-plus{
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+/*carrossel*/
+.carrosel-mangas{
+    background-color: var(--void);
+    color: var(--stark);
+}
+
+.carrosel-mangas h6{
+    padding: 10px;
+    text-align: center;
+    background-color: var(--void);
+}
+
