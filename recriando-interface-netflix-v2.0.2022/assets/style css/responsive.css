@@ -1,0 +1,41 @@
+@media screen and (max-width:1100px){
+        header .menu-superior{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav a{
+        text-decoration: none;
+        color: #AAA;
+        padding:10px;
+        margin-right: 10px;
+        font-size: larger;
+        justify-content: center;
+    }
+
+
+
+    .manga-principal .conteudo-destaque{
+        width: 90%;
+        font-size: large;
+    }
+    .manga-principal{
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+
+    
+    .botao{
+        margin-top: 5px;
+        width: 150px;
+        height: 60px;
+    }
+
+
+    .principal-capa-manga{
+        justify-content: center;
+    }
+    
+}
